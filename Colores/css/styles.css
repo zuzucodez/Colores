@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+SOLO REPITE LA IMAGEN EN LA PRIMERA COLUMNA
+body{
+    color: rgb(32, 12, 105);
+
+    margin: auto;
+    margin-top: 20px;
+    background-image: url("/Colores/images/pattern.jpg");
+    background-repeat: repeat-y;
+}
+
+SOLO REPITE LA IMAGEN EN LA PRIMERA FILA
+body{
+    color: rgb(32, 12, 105);
+
+    margin: auto;
+    margin-top: 20px;
+    background-image: url("/Colores/images/pattern.jpg");
+    background-repeat: repeat-X;
+}
+
+REPITE LA IMAGEN A LO LARGO DE LA PAGINA
+body{
+    color: rgb(32, 12, 105);
+
+    margin: auto;
+    margin-top: 20px;
+    background-image: url("/Colores/images/pattern.jpg");
+    background-repeat: repeat;
+}
+*/
+/*
+AHORA TRABAJAREMOS CON GRADIANTES*/
+
+body{
+    width: 100PX;
+    height: 100vh;
+    color: #000;
+    /*
+    aki el degradado lo hace inclinado 
+    background: linear-gradient(30deg, red 10%, blue 90%) 
+    
+    este lo que hace es que invierte los colores
+    background: linear-gradient(to top, red 10%, blue 90%);
+    ojo
+    tambien podremos usar to left, to right y to bottom
+
+    */
+    background: linear-gradient(to top, red 10%, blue 90%);
+    background-repeat: no-repeat;
+}
+
+.section{
+    width: 400px;
+    height: 700px;
+}
+
